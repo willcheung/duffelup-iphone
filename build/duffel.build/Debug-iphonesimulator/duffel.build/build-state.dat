@@ -1,0 +1,1576 @@
+Tduffel
+v7
+r0
+t322344164.332041
+cCheck dependencies
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004CC127DD00000000000001D0
+t1287727069
+s464
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004CC1294D00000000000002FE
+t1287727437
+s766
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004CC12977000000000017E7F0
+t1287727479
+s1566704
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC12431000000000015CDB0
+t1287726129
+s1428912
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/Availability.h
+c000000004CB3FA080000000000001ADD
+t1286863368
+s6877
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/sqlite3.h
+c000000004CC109C90000000000042B54
+t1287719369
+s273236
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/lib/libsqlite3.0.dylib
+c000000004CC109D90000000000092C20
+t1287719385
+s601120
+
+N/Users/wcheung/iPhone-duffelup/trunk/BG_Corkboard.png
+c000000004D60BCCE000000000007564F
+t1298185422
+s480847
+
+N/Users/wcheung/iPhone-duffelup/trunk/CELL/regcell.h
+c000000004D2DEFF700000000000002F7
+t1294856183
+s759
+i<UIKit/UIKit.h>
+
+N/Users/wcheung/iPhone-duffelup/trunk/CELL/regcell.m
+c000000004D864ECD0000000000000EBE
+t1300647629
+s3774
+i"regcell.h"
+
+N/Users/wcheung/iPhone-duffelup/trunk/CELL/regcell2.h
+c000000004D2DEFF7000000000000014B
+t1294856183
+s331
+i<UIKit/UIKit.h>
+
+N/Users/wcheung/iPhone-duffelup/trunk/CELL/regcell2.m
+c000000004D2DEFF70000000000000553
+t1294856183
+s1363
+i"regcell2.h"
+
+N/Users/wcheung/iPhone-duffelup/trunk/Classes/HowToViewController.h
+c000000004D807C4F00000000000003E0
+t1300266063
+s992
+i<UIKit/UIKit.h>
+i"notecontroller.h"
+i"duffelAppDelegate.h"
+
+N/Users/wcheung/iPhone-duffelup/trunk/Classes/HowToViewController.m
+c000000004D80DCE70000000000002987
+t1300290791
+s10631
+i"HowToViewController.h"
+
+N/Users/wcheung/iPhone-duffelup/trunk/Classes/RootViewController.h
+c000000004D30969F0000000000000336
+t1295029919
+s822
+i<UIKit/UIKit.h>
+i"webviewcontroller.h"
+i"myduffelcontroller.h"
+i"duffelAppDelegate.h"
+i"createcontroller.h"
+
+N/Users/wcheung/iPhone-duffelup/trunk/Classes/RootViewController.m
+c000000004D40804000000000000019A4
+t1296072768
+s6564
+i"RootViewController.h"
+
+N/Users/wcheung/iPhone-duffelup/trunk/Classes/createcontroller.h
+c000000004D2DEFF900000000000002E6
+t1294856185
+s742
+i<UIKit/UIKit.h>
+i"duffelAppDelegate.h"
+i"myduffelcontroller.h"
+i"regcell2.h"
+
+N/Users/wcheung/iPhone-duffelup/trunk/Classes/createcontroller.m
+c000000004D2DEFF90000000000001CA1
+t1294856185
+s7329
+i"createcontroller.h"
+
+N/Users/wcheung/iPhone-duffelup/trunk/Classes/createcontroller.xib
+c000000004D2DEFF90000000000004780
+t1294856185
+s18304
+
+N/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.h
+c000000004D5B85FE000000000000095A
+t1297843710
+s2394
+i"DDXMLDocument.h"
+
+N/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m
+c000000004D5B859400000000000067DB
+t1297843604
+s26587
+i"duffelAppDelegate.h"
+i"RootViewController.h"
+i"JSON.h"
+i"sqlite3.h"
+
+N/Users/wcheung/iPhone-duffelup/trunk/Classes/mapcontroller.h
+c000000004D2DEFF90000000000000378
+t1294856185
+s888
+i<UIKit/UIKit.h>
+i<MapKit/MapKit.h>
+i"duffelAppDelegate.h"
+i"notecontroller.h"
+
+N/Users/wcheung/iPhone-duffelup/trunk/Classes/mapcontroller.m
+c000000004D8621B900000000000015D1
+t1300636089
+s5585
+i"mapcontroller.h"
+i"POL.h"
+
+N/Users/wcheung/iPhone-duffelup/trunk/Classes/mapcontroller.xib
+c000000004D2DEFF90000000000002E3D
+t1294856185
+s11837
+
+N/Users/wcheung/iPhone-duffelup/trunk/Classes/myduffelcontroller.h
+c000000004D2DEFF900000000000004A2
+t1294856185
+s1186
+i<UIKit/UIKit.h>
+i"regcell.h"
+i"tripcontroller.h"
+i"duffelAppDelegate.h"
+
+N/Users/wcheung/iPhone-duffelup/trunk/Classes/myduffelcontroller.m
+c000000004D5D5708000000000000430A
+t1297962760
+s17162
+i"myduffelcontroller.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/wcheung/iPhone-duffelup/trunk/Classes/myduffelcontroller.xib
+c000000004D778FB4000000000000F0CA
+t1299681204
+s61642
+
+N/Users/wcheung/iPhone-duffelup/trunk/Classes/notecontroller.h
+c000000004D7BB4F50000000000000681
+t1299952885
+s1665
+i<UIKit/UIKit.h>
+i"mapcontroller.h"
+i"duffelAppDelegate.h"
+i"webviewcontroller.h"
+
+N/Users/wcheung/iPhone-duffelup/trunk/Classes/notecontroller.m
+c000000004D8626200000000000005302
+t1300637216
+s21250
+i"notecontroller.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/wcheung/iPhone-duffelup/trunk/Classes/notecontroller.xib
+c000000004D80E0EE000000000000B576
+t1300291822
+s46454
+
+N/Users/wcheung/iPhone-duffelup/trunk/Classes/tripcontroller.h
+c000000004D7779D5000000000000049D
+t1299675605
+s1181
+i<UIKit/UIKit.h>
+i"regcell.h"
+i"mapcontroller.h"
+i"notecontroller.h"
+i"duffelAppDelegate.h"
+i"HowToViewController.h"
+
+N/Users/wcheung/iPhone-duffelup/trunk/Classes/tripcontroller.m
+c000000004D8629C700000000000035DC
+t1300638151
+s13788
+i"tripcontroller.h"
+
+N/Users/wcheung/iPhone-duffelup/trunk/Classes/tripcontroller.xib
+c000000004D2DEFF900000000000033C1
+t1294856185
+s13249
+
+N/Users/wcheung/iPhone-duffelup/trunk/Classes/webviewcontroller.h
+c000000004D77872C00000000000001D3
+t1299679020
+s467
+i<UIKit/UIKit.h>
+
+N/Users/wcheung/iPhone-duffelup/trunk/Classes/webviewcontroller.m
+c000000004D86512300000000000007A3
+t1300648227
+s1955
+i"webviewcontroller.h"
+
+N/Users/wcheung/iPhone-duffelup/trunk/Classes/webviewcontroller.xib
+c000000004D865315000000000000596E
+t1300648725
+s22894
+
+N/Users/wcheung/iPhone-duffelup/trunk/DDXML.h
+c000000004AE60C670000000000000049
+t1256590439
+s73
+i"DDXMLNode.h"
+i"DDXMLElement.h"
+i"DDXMLDocument.h"
+
+N/Users/wcheung/iPhone-duffelup/trunk/DDXMLDocument.h
+c000000004AE60C670000000000000807
+t1256590439
+s2055
+i<Foundation/Foundation.h>
+i"DDXMLElement.h"
+i"DDXMLNode.h"
+
+N/Users/wcheung/iPhone-duffelup/trunk/DDXMLDocument.m
+c000000004AE60C670000000000000BC3
+t1256590439
+s3011
+i"DDXMLDocument.h"
+i"NSStringAdditions.h"
+i"DDXMLPrivate.h"
+
+N/Users/wcheung/iPhone-duffelup/trunk/DDXMLElement.h
+c000000004AE60C6700000000000006B0
+t1256590439
+s1712
+i<Foundation/Foundation.h>
+i"DDXMLNode.h"
+
+N/Users/wcheung/iPhone-duffelup/trunk/DDXMLElement.m
+c000000004AE60C670000000000004042
+t1256590439
+s16450
+i"DDXMLElement.h"
+i"NSStringAdditions.h"
+i"DDXMLPrivate.h"
+
+N/Users/wcheung/iPhone-duffelup/trunk/DDXMLElementAdditions.h
+c000000004AE60C670000000000000264
+t1256590439
+s612
+i<Foundation/Foundation.h>
+i"DDXML.h"
+
+N/Users/wcheung/iPhone-duffelup/trunk/DDXMLElementAdditions.m
+c000000004AE60C670000000000000C1D
+t1256590439
+s3101
+i"DDXMLElementAdditions.h"
+
+N/Users/wcheung/iPhone-duffelup/trunk/DDXMLNode.h
+c000000004AE60C670000000000001392
+t1256590439
+s5010
+i<Foundation/Foundation.h>
+i<libxml/tree.h>
+
+N/Users/wcheung/iPhone-duffelup/trunk/DDXMLNode.m
+c000000004AE60C67000000000000B90F
+t1256590439
+s47375
+i"DDXMLNode.h"
+i"DDXMLElement.h"
+i"DDXMLDocument.h"
+i"NSStringAdditions.h"
+i"DDXMLPrivate.h"
+i<libxml/xpath.h>
+i<libxml/xpathInternals.h>
+
+N/Users/wcheung/iPhone-duffelup/trunk/DDXMLPrivate.h
+c000000004AE60C670000000000000A61
+t1256590439
+s2657
+i"DDXMLNode.h"
+i"DDXMLElement.h"
+i"DDXMLDocument.h"
+
+N/Users/wcheung/iPhone-duffelup/trunk/Entitlements.plist
+c000000004D2DF00700000000000000EE
+t1294856199
+s238
+
+N/Users/wcheung/iPhone-duffelup/trunk/GotoWebsite.png
+c000000004D777F4A00000000000019A1
+t1299677002
+s6561
+
+N/Users/wcheung/iPhone-duffelup/trunk/Images/Default.png
+c000000004D2DF0060000000000044C4C
+t1294856198
+s281676
+
+N/Users/wcheung/iPhone-duffelup/trunk/Images/activity.png
+c000000004D2DF0060000000000000343
+t1294856198
+s835
+
+N/Users/wcheung/iPhone-duffelup/trunk/Images/bg-board.jpg
+c000000004D2DF00600000000000092D9
+t1294856198
+s37593
+
+N/Users/wcheung/iPhone-duffelup/trunk/Images/btnblue.png
+c000000004D2DF00600000000000010A5
+t1294856198
+s4261
+
+N/Users/wcheung/iPhone-duffelup/trunk/Images/button.png
+c000000004D2DF0060000000000001690
+t1294856198
+s5776
+
+N/Users/wcheung/iPhone-duffelup/trunk/Images/food.png
+c000000004D2DF00600000000000003F3
+t1294856198
+s1011
+
+N/Users/wcheung/iPhone-duffelup/trunk/Images/leftarrow2.png
+c000000004D2DF00600000000000020ED
+t1294856198
+s8429
+
+N/Users/wcheung/iPhone-duffelup/trunk/Images/logo.png
+c000000004D2DF0060000000000003D20
+t1294856198
+s15648
+
+N/Users/wcheung/iPhone-duffelup/trunk/Images/my.png
+c000000004D2DF006000000000000082A
+t1294856198
+s2090
+
+N/Users/wcheung/iPhone-duffelup/trunk/Images/myduffel.png
+c000000004D2DF00600000000000010D0
+t1294856198
+s4304
+
+N/Users/wcheung/iPhone-duffelup/trunk/Images/noimage.png
+c000000004D2DF0060000000000000E81
+t1294856198
+s3713
+
+N/Users/wcheung/iPhone-duffelup/trunk/Images/note.png
+c000000004D2DF0060000000000000308
+t1294856198
+s776
+
+N/Users/wcheung/iPhone-duffelup/trunk/Images/note5.png
+c000000004D80E0A10000000000003066
+t1300291745
+s12390
+
+N/Users/wcheung/iPhone-duffelup/trunk/Images/rightarrow2.png
+c000000004D2DF00600000000000019C1
+t1294856198
+s6593
+
+N/Users/wcheung/iPhone-duffelup/trunk/Images/settings.png
+c000000004D2DF006000000000000070E
+t1294856198
+s1806
+
+N/Users/wcheung/iPhone-duffelup/trunk/Images/tab-left.png
+c000000004D2DF00600000000000005BB
+t1294856198
+s1467
+
+N/Users/wcheung/iPhone-duffelup/trunk/Images/tab-right.png
+c000000004D2DF0060000000000000563
+t1294856198
+s1379
+
+N/Users/wcheung/iPhone-duffelup/trunk/Images/thumb.png
+c000000004D2DF00600000000000045F4
+t1294856198
+s17908
+
+N/Users/wcheung/iPhone-duffelup/trunk/Images/transportation.png
+c000000004D2DF0060000000000000377
+t1294856198
+s887
+
+N/Users/wcheung/iPhone-duffelup/trunk/Images/ynote3.png
+c000000004D80E0910000000000002DB6
+t1300291729
+s11702
+
+N/Users/wcheung/iPhone-duffelup/trunk/JSON/iphoneos.sdk/SDKSettings.plist
+c000000004D2DF00600000000000005DE
+t1294856198
+s1502
+
+N/Users/wcheung/iPhone-duffelup/trunk/JSON/iphoneos.sdk/usr/local/include/JSON/JSON.h
+c000000004D2DF00600000000000008F9
+t1294856198
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/wcheung/iPhone-duffelup/trunk/JSON/iphoneos.sdk/usr/local/include/JSON/NSObject+SBJSON.h
+c000000004D2DF0060000000000000A01
+t1294856198
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/wcheung/iPhone-duffelup/trunk/JSON/iphoneos.sdk/usr/local/include/JSON/NSString+SBJSON.h
+c000000004D2DF0060000000000000916
+t1294856198
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/wcheung/iPhone-duffelup/trunk/JSON/iphoneos.sdk/usr/local/include/JSON/SBJSON.h
+c000000004D2DF0060000000000000AED
+t1294856198
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/wcheung/iPhone-duffelup/trunk/JSON/iphoneos.sdk/usr/local/include/JSON/SBJsonBase.h
+c000000004D2DF0060000000000000B82
+t1294856198
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/wcheung/iPhone-duffelup/trunk/JSON/iphoneos.sdk/usr/local/include/JSON/SBJsonParser.h
+c000000004D2DF0060000000000000C0B
+t1294856198
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/wcheung/iPhone-duffelup/trunk/JSON/iphoneos.sdk/usr/local/include/JSON/SBJsonWriter.h
+c000000004D2DF0060000000000001140
+t1294856198
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/wcheung/iPhone-duffelup/trunk/JSON/iphoneos.sdk/usr/local/lib/libjson.a
+c000000004D2DF006000000000001CF40
+t1294856198
+s118592
+
+N/Users/wcheung/iPhone-duffelup/trunk/JSON/iphonesimulator.sdk/SDKSettings.plist
+c000000004D2DF006000000000000047F
+t1294856198
+s1151
+
+N/Users/wcheung/iPhone-duffelup/trunk/JSON/iphonesimulator.sdk/usr/local/lib/libjson.a
+c000000004D2DF0060000000000018160
+t1294856198
+s98656
+
+N/Users/wcheung/iPhone-duffelup/trunk/JSON/macosx.sdk/usr/local/lib/libjson.a
+c000000004D2DF00700000000000433FC
+t1294856199
+s275452
+
+N/Users/wcheung/iPhone-duffelup/trunk/MainWindow.xib
+c000000004D2DF0070000000000003C88
+t1294856199
+s15496
+
+N/Users/wcheung/iPhone-duffelup/trunk/NSStringAdditions.h
+c000000004AE60C6700000000000000FB
+t1256590439
+s251
+i<Foundation/Foundation.h>
+i<libxml/tree.h>
+
+N/Users/wcheung/iPhone-duffelup/trunk/NSStringAdditions.m
+c000000004C40B00C0000000000000175
+t1279307788
+s373
+i"NSStringAdditions.h"
+
+N/Users/wcheung/iPhone-duffelup/trunk/RootViewController.xib
+c000000004D80E167000000000000DB17
+t1300291943
+s56087
+
+N/Users/wcheung/iPhone-duffelup/trunk/acbg.png
+c000000004D6E85F500000000000013F2
+t1299088885
+s5106
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app.dSYM
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/BG_Corkboard.png
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/Default.png
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/Duffel
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/Entitlements.plist
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/GotoWebsite.png
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/Info.plist
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/MainWindow.nib
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/PkgInfo
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/RootViewController.nib
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/SDKSettings.plist
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/acbg.png
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/activity.png
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/bg-board.jpg
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/btnblue.png
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/button.png
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/createcontroller.nib
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/duffel.sqlite
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/food.png
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/icon-duffel.png
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/icon.png
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/index.png
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/leftarrow2.png
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/lodging.png
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/logo.png
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/mapcontroller.nib
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/my.png
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/myduffel.png
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/myduffelcontroller.nib
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/noimage.png
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/note.png
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/note5.png
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/notecontroller.nib
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/panel.png
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/rightarrow2.png
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/settings.png
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/tab-left.png
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/tab-right.png
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/thumb.png
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/transportation.png
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/tripcontroller.nib
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/webviewcontroller.nib
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/ynote3.png
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/DDXMLDocument.o
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/DDXMLElement.o
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/DDXMLElementAdditions.o
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/DDXMLNode.o
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/Duffel.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/HowToViewController.o
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/NSStringAdditions.o
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/POL.o
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/RootViewController.o
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/createcontroller.o
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/duffelAppDelegate.o
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/mapcontroller.o
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/myduffelcontroller.o
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/notecontroller.o
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/regcell.o
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/regcell2.o
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/tripcontroller.o
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/webviewcontroller.o
+t2
+s0
+
+N/Users/wcheung/iPhone-duffelup/trunk/duffel.sqlite
+c000000004D2DF0070000000000000800
+t1294856199
+s2048
+
+N/Users/wcheung/iPhone-duffelup/trunk/duffel_Prefix.pch
+c000000004D2DF007000000000000013E
+t1294856199
+s318
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/wcheung/iPhone-duffelup/trunk/icon-duffel.png
+c000000004D864D9A0000000000000336
+t1300647322
+s822
+
+N/Users/wcheung/iPhone-duffelup/trunk/icon.png
+c000000004D2DF0070000000000001B6D
+t1294856199
+s7021
+
+N/Users/wcheung/iPhone-duffelup/trunk/index.png
+c000000004D2DF0070000000000000500
+t1294856199
+s1280
+
+N/Users/wcheung/iPhone-duffelup/trunk/lodging.png
+c000000004D2DF00700000000000002DC
+t1294856199
+s732
+
+N/Users/wcheung/iPhone-duffelup/trunk/main.m
+c000000004D2DF0070000000000000167
+t1294856199
+s359
+i<UIKit/UIKit.h>
+
+N/Users/wcheung/iPhone-duffelup/trunk/panel.png
+c000000004D2DF0070000000000000F3D
+t1294856199
+s3901
+
+N/Users/wcheung/iPhone-duffelup/trunk/pol/POL.h
+c000000004D2DEFF800000000000002AC
+t1294856184
+s684
+i<Foundation/Foundation.h>
+i<MapKit/MapKit.h>
+i<CoreLocation/CoreLocation.h>
+
+N/Users/wcheung/iPhone-duffelup/trunk/pol/POL.m
+c000000004D2DEFF800000000000001E8
+t1294856184
+s488
+i"POL.h"
+
+N/usr/include/libxml2/libxml/tree.h
+c000000004AB82E0D0000000000008F14
+t1253584397
+s36628
+
+N/usr/include/libxml2/libxml/xpath.h
+c000000004AB82E0D0000000000003F47
+t1253584397
+s16199
+
+N/usr/include/libxml2/libxml/xpathInternals.h
+c000000004AB82E0D0000000000004BF8
+t1253584397
+s19448
+
+N/var/folders/AZ/AZYGWtgUG40B+Fk-FACBj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/duffel_Prefix-cfasgziqprzbbkbhuvdyynjmjiwi/duffel_Prefix.pch.gch
+t2
+s0
+
+Nduffel-Info.plist
+c000000004D4823920000000000000377
+t1296573330
+s887
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies322344164#322344164#0(0"0(0#1#0"8609787776#0"0#
+
+CCompileC build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/DDXMLDocument.o /Users/wcheung/iPhone-duffelup/trunk/DDXMLDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322344077.659832
+e322344077.749751
+r1
+xCompileC
+xbuild/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/DDXMLDocument.o
+x/Users/wcheung/iPhone-duffelup/trunk/DDXMLDocument.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/wcheung/iPhone-duffelup/trunk/DDXMLDocument.m322344077#322344077#0(0"0(0#0#52"/Users/wcheung/iPhone-duffelup/trunk/DDXMLDocument.m8609778112#1943"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-generated-files.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-own-target-headers.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-all-target-headers.hmap -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-project-headers.hmap -F/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator -I/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources/i386 -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources -include /var/folders/AZ/AZYGWtgUG40B+Fk-FACBj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/duffel_Prefix-cfasgziqprzbbkbhuvdyynjmjiwi/duffel_Prefix.pch -c /Users/wcheung/iPhone-duffelup/trunk/DDXMLDocument.m -o /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/DDXMLDocument.o0#
+
+CCompileC build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/DDXMLElement.o /Users/wcheung/iPhone-duffelup/trunk/DDXMLElement.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322344077.697360
+e322344077.846119
+r1
+xCompileC
+xbuild/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/DDXMLElement.o
+x/Users/wcheung/iPhone-duffelup/trunk/DDXMLElement.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/wcheung/iPhone-duffelup/trunk/DDXMLElement.m322344077#322344077#0(0"0(0#0#51"/Users/wcheung/iPhone-duffelup/trunk/DDXMLElement.m8609156640#1941"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-generated-files.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-own-target-headers.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-all-target-headers.hmap -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-project-headers.hmap -F/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator -I/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources/i386 -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources -include /var/folders/AZ/AZYGWtgUG40B+Fk-FACBj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/duffel_Prefix-cfasgziqprzbbkbhuvdyynjmjiwi/duffel_Prefix.pch -c /Users/wcheung/iPhone-duffelup/trunk/DDXMLElement.m -o /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/DDXMLElement.o0#
+
+CCompileC build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/DDXMLElementAdditions.o /Users/wcheung/iPhone-duffelup/trunk/DDXMLElementAdditions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322344077.749841
+e322344077.847126
+r1
+xCompileC
+xbuild/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/DDXMLElementAdditions.o
+x/Users/wcheung/iPhone-duffelup/trunk/DDXMLElementAdditions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/wcheung/iPhone-duffelup/trunk/DDXMLElementAdditions.m322344077#322344077#0(0"0(0#0#60"/Users/wcheung/iPhone-duffelup/trunk/DDXMLElementAdditions.m8608922240#1959"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-generated-files.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-own-target-headers.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-all-target-headers.hmap -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-project-headers.hmap -F/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator -I/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources/i386 -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources -include /var/folders/AZ/AZYGWtgUG40B+Fk-FACBj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/duffel_Prefix-cfasgziqprzbbkbhuvdyynjmjiwi/duffel_Prefix.pch -c /Users/wcheung/iPhone-duffelup/trunk/DDXMLElementAdditions.m -o /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/DDXMLElementAdditions.o0#
+
+CCompileC build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/DDXMLNode.o /Users/wcheung/iPhone-duffelup/trunk/DDXMLNode.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322344077.846200
+e322344078.070247
+r1
+xCompileC
+xbuild/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/DDXMLNode.o
+x/Users/wcheung/iPhone-duffelup/trunk/DDXMLNode.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/wcheung/iPhone-duffelup/trunk/DDXMLNode.m322344077#322344078#0(0"0(0#0#48"/Users/wcheung/iPhone-duffelup/trunk/DDXMLNode.m8611525792#1935"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-generated-files.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-own-target-headers.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-all-target-headers.hmap -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-project-headers.hmap -F/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator -I/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources/i386 -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources -include /var/folders/AZ/AZYGWtgUG40B+Fk-FACBj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/duffel_Prefix-cfasgziqprzbbkbhuvdyynjmjiwi/duffel_Prefix.pch -c /Users/wcheung/iPhone-duffelup/trunk/DDXMLNode.m -o /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/DDXMLNode.o0#
+
+CCompileC build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/HowToViewController.o /Users/wcheung/iPhone-duffelup/trunk/Classes/HowToViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322344077.919925
+e322344078.083500
+r1
+xCompileC
+xbuild/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/HowToViewController.o
+x/Users/wcheung/iPhone-duffelup/trunk/Classes/HowToViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/wcheung/iPhone-duffelup/trunk/Classes/HowToViewController.m322344077#322344078#0(0"0(0#0#66"/Users/wcheung/iPhone-duffelup/trunk/Classes/HowToViewController.m8610753216#1963"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-generated-files.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-own-target-headers.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-all-target-headers.hmap -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-project-headers.hmap -F/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator -I/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources/i386 -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources -include /var/folders/AZ/AZYGWtgUG40B+Fk-FACBj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/duffel_Prefix-cfasgziqprzbbkbhuvdyynjmjiwi/duffel_Prefix.pch -c /Users/wcheung/iPhone-duffelup/trunk/Classes/HowToViewController.m -o /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/HowToViewController.o0#
+
+CCompileC build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/NSStringAdditions.o /Users/wcheung/iPhone-duffelup/trunk/NSStringAdditions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322344077.847188
+e322344077.919836
+r1
+xCompileC
+xbuild/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/NSStringAdditions.o
+x/Users/wcheung/iPhone-duffelup/trunk/NSStringAdditions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/wcheung/iPhone-duffelup/trunk/NSStringAdditions.m322344077#322344077#0(0"0(0#0#56"/Users/wcheung/iPhone-duffelup/trunk/NSStringAdditions.m8611335424#1951"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-generated-files.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-own-target-headers.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-all-target-headers.hmap -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-project-headers.hmap -F/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator -I/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources/i386 -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources -include /var/folders/AZ/AZYGWtgUG40B+Fk-FACBj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/duffel_Prefix-cfasgziqprzbbkbhuvdyynjmjiwi/duffel_Prefix.pch -c /Users/wcheung/iPhone-duffelup/trunk/NSStringAdditions.m -o /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/NSStringAdditions.o0#
+
+CCompileC build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/POL.o /Users/wcheung/iPhone-duffelup/trunk/pol/POL.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322344077.472650
+e322344077.540009
+r1
+xCompileC
+xbuild/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/POL.o
+x/Users/wcheung/iPhone-duffelup/trunk/pol/POL.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/wcheung/iPhone-duffelup/trunk/pol/POL.m322344077#322344077#0(0"0(0#0#46"/Users/wcheung/iPhone-duffelup/trunk/pol/POL.m8611300832#1927"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-generated-files.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-own-target-headers.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-all-target-headers.hmap -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-project-headers.hmap -F/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator -I/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources/i386 -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources -include /var/folders/AZ/AZYGWtgUG40B+Fk-FACBj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/duffel_Prefix-cfasgziqprzbbkbhuvdyynjmjiwi/duffel_Prefix.pch -c /Users/wcheung/iPhone-duffelup/trunk/pol/POL.m -o /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/POL.o0#
+
+CCompileC build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/RootViewController.o /Users/wcheung/iPhone-duffelup/trunk/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322344076.842767
+e322344077.007885
+r1
+xCompileC
+xbuild/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/RootViewController.o
+x/Users/wcheung/iPhone-duffelup/trunk/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/wcheung/iPhone-duffelup/trunk/Classes/RootViewController.m322344076#322344077#0(0"0(0#0#65"/Users/wcheung/iPhone-duffelup/trunk/Classes/RootViewController.m8607843040#1961"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-generated-files.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-own-target-headers.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-all-target-headers.hmap -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-project-headers.hmap -F/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator -I/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources/i386 -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources -include /var/folders/AZ/AZYGWtgUG40B+Fk-FACBj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/duffel_Prefix-cfasgziqprzbbkbhuvdyynjmjiwi/duffel_Prefix.pch -c /Users/wcheung/iPhone-duffelup/trunk/Classes/RootViewController.m -o /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/RootViewController.o0#
+
+CCompileC build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/createcontroller.o /Users/wcheung/iPhone-duffelup/trunk/Classes/createcontroller.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322344077.540100
+e322344077.697272
+r1
+xCompileC
+xbuild/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/createcontroller.o
+x/Users/wcheung/iPhone-duffelup/trunk/Classes/createcontroller.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/wcheung/iPhone-duffelup/trunk/Classes/createcontroller.m322344077#322344077#0(0"0(0#0#63"/Users/wcheung/iPhone-duffelup/trunk/Classes/createcontroller.m8610888544#1957"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-generated-files.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-own-target-headers.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-all-target-headers.hmap -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-project-headers.hmap -F/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator -I/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources/i386 -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources -include /var/folders/AZ/AZYGWtgUG40B+Fk-FACBj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/duffel_Prefix-cfasgziqprzbbkbhuvdyynjmjiwi/duffel_Prefix.pch -c /Users/wcheung/iPhone-duffelup/trunk/Classes/createcontroller.m -o /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/createcontroller.o0#
+
+CCompileC build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/duffelAppDelegate.o /Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322344076.794750
+e322344077.057233
+r1
+xCompileC
+xbuild/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/duffelAppDelegate.o
+x/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m: In function '-[duffelAppDelegate getUserDataWithNewParser:]':
+o/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m:235: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)
+o/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m: In function '-[duffelAppDelegate getuserdata:]':
+o/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m:338: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)
+o/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m:338: warning: format not a string literal and no format arguments
+o/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m:342: warning: class 'duffelAppDelegate' does not implement the 'NSXMLParserDelegate' protocol
+o/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m: In function '-[duffelAppDelegate gettrip:]':
+o/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m:412: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)
+o/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m:412: warning: format not a string literal and no format arguments
+o/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m:416: warning: class 'duffelAppDelegate' does not implement the 'NSXMLParserDelegate' protocol
+o/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m: In function '-[duffelAppDelegate getTripWithNewParser:]':
+o/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m:667: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)
+o/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m: In function '-[duffelAppDelegate setlasttime]':
+o/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m:753: warning: format not a string literal and no format arguments
+lSLF07#2@72"Compile /Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m322344076#322344077#0(2455"/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m: In function '-[duffelAppDelegate getUserDataWithNewParser:]':/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m:235: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m: In function '-[duffelAppDelegate getuserdata:]':/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m:338: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m:338: warning: format not a string literal and no format arguments/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m:342: warning: class 'duffelAppDelegate' does not implement the 'NSXMLParserDelegate' protocol/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m: In function '-[duffelAppDelegate gettrip:]':/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m:412: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m:412: warning: format not a string literal and no format arguments/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m:416: warning: class 'duffelAppDelegate' does not implement the 'NSXMLParserDelegate' protocol/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m: In function '-[duffelAppDelegate getTripWithNewParser:]':/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m:667: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m: In function '-[duffelAppDelegate setlasttime]':/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m:753: warning: format not a string literal and no format arguments9(22@208"'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)322344076#128#288#0(6@64"/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m319536404#235#0#235#0#33"'*' is deprecated (declared at *)0(22@208"'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)322344076#531#288#0(6@64"/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m319536404#338#0#338#0#33"'*' is deprecated (declared at *)0(22@51"Format not a string literal and no format arguments322344076#819#131#0(6@64"/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m319536404#338#0#338#0#51"format not a string literal and no format arguments0(22@79"Class 'duffelAppDelegate' does not implement the 'NSXMLParserDelegate' protocol322344076#950#159#0(6@64"/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m319536404#342#0#342#0#45"class '*' does not implement the '*' protocol0(22@208"'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)322344076#1220#288#0(6@64"/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m319536404#412#0#412#0#33"'*' is deprecated (declared at *)0(22@51"Format not a string literal and no format arguments322344076#1508#131#0(6@64"/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m319536404#412#0#412#0#51"format not a string literal and no format arguments0(22@79"Class 'duffelAppDelegate' does not implement the 'NSXMLParserDelegate' protocol322344076#1639#159#0(6@64"/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m319536404#416#0#416#0#45"class '*' does not implement the '*' protocol0(22@208"'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)322344076#1922#288#0(6@64"/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m319536404#667#0#667#0#33"'*' is deprecated (declared at *)0(22@51"Format not a string literal and no format arguments322344076#2324#131#0(6@64"/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m319536404#753#0#753#0#51"format not a string literal and no format arguments0(0#0#64"/Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m8608039232#1959"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-generated-files.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-own-target-headers.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-all-target-headers.hmap -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-project-headers.hmap -F/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator -I/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources/i386 -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources -include /var/folders/AZ/AZYGWtgUG40B+Fk-FACBj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/duffel_Prefix-cfasgziqprzbbkbhuvdyynjmjiwi/duffel_Prefix.pch -c /Users/wcheung/iPhone-duffelup/trunk/Classes/duffelAppDelegate.m -o /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/duffelAppDelegate.o0#
+
+CCompileC build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/main.o /Users/wcheung/iPhone-duffelup/trunk/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322344076.793735
+e322344076.842680
+r1
+xCompileC
+xbuild/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/main.o
+x/Users/wcheung/iPhone-duffelup/trunk/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/wcheung/iPhone-duffelup/trunk/main.m322344076#322344076#0(0"0(0#0#43"/Users/wcheung/iPhone-duffelup/trunk/main.m8608097088#1925"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-generated-files.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-own-target-headers.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-all-target-headers.hmap -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-project-headers.hmap -F/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator -I/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources/i386 -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources -include /var/folders/AZ/AZYGWtgUG40B+Fk-FACBj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/duffel_Prefix-cfasgziqprzbbkbhuvdyynjmjiwi/duffel_Prefix.pch -c /Users/wcheung/iPhone-duffelup/trunk/main.m -o /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/main.o0#
+
+CCompileC build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/mapcontroller.o /Users/wcheung/iPhone-duffelup/trunk/Classes/mapcontroller.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322344077.328247
+e322344077.472533
+r1
+xCompileC
+xbuild/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/mapcontroller.o
+x/Users/wcheung/iPhone-duffelup/trunk/Classes/mapcontroller.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/wcheung/iPhone-duffelup/trunk/Classes/mapcontroller.m322344077#322344077#0(0"0(0#0#60"/Users/wcheung/iPhone-duffelup/trunk/Classes/mapcontroller.m8603634080#1951"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-generated-files.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-own-target-headers.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-all-target-headers.hmap -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-project-headers.hmap -F/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator -I/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources/i386 -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources -include /var/folders/AZ/AZYGWtgUG40B+Fk-FACBj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/duffel_Prefix-cfasgziqprzbbkbhuvdyynjmjiwi/duffel_Prefix.pch -c /Users/wcheung/iPhone-duffelup/trunk/Classes/mapcontroller.m -o /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/mapcontroller.o0#
+
+CCompileC build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/myduffelcontroller.o /Users/wcheung/iPhone-duffelup/trunk/Classes/myduffelcontroller.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322344077.111607
+e322344077.335056
+r1
+xCompileC
+xbuild/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/myduffelcontroller.o
+x/Users/wcheung/iPhone-duffelup/trunk/Classes/myduffelcontroller.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/wcheung/iPhone-duffelup/trunk/Classes/myduffelcontroller.m322344077#322344077#0(0"0(0#0#65"/Users/wcheung/iPhone-duffelup/trunk/Classes/myduffelcontroller.m8609045760#1961"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-generated-files.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-own-target-headers.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-all-target-headers.hmap -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-project-headers.hmap -F/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator -I/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources/i386 -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources -include /var/folders/AZ/AZYGWtgUG40B+Fk-FACBj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/duffel_Prefix-cfasgziqprzbbkbhuvdyynjmjiwi/duffel_Prefix.pch -c /Users/wcheung/iPhone-duffelup/trunk/Classes/myduffelcontroller.m -o /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/myduffelcontroller.o0#
+
+CCompileC build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/notecontroller.o /Users/wcheung/iPhone-duffelup/trunk/Classes/notecontroller.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322344077.335140
+e322344077.593004
+r1
+xCompileC
+xbuild/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/notecontroller.o
+x/Users/wcheung/iPhone-duffelup/trunk/Classes/notecontroller.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/wcheung/iPhone-duffelup/trunk/Classes/notecontroller.m322344077#322344077#0(0"0(0#0#61"/Users/wcheung/iPhone-duffelup/trunk/Classes/notecontroller.m8606475520#1953"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-generated-files.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-own-target-headers.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-all-target-headers.hmap -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-project-headers.hmap -F/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator -I/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources/i386 -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources -include /var/folders/AZ/AZYGWtgUG40B+Fk-FACBj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/duffel_Prefix-cfasgziqprzbbkbhuvdyynjmjiwi/duffel_Prefix.pch -c /Users/wcheung/iPhone-duffelup/trunk/Classes/notecontroller.m -o /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/notecontroller.o0#
+
+CCompileC build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/regcell.o /Users/wcheung/iPhone-duffelup/trunk/CELL/regcell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322344077.007984
+e322344077.111463
+r1
+xCompileC
+xbuild/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/regcell.o
+x/Users/wcheung/iPhone-duffelup/trunk/CELL/regcell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/wcheung/iPhone-duffelup/trunk/CELL/regcell.m: In function '-[regcell loadDidFinishWithData:]':
+o/Users/wcheung/iPhone-duffelup/trunk/CELL/regcell.m:83: warning: unused variable 'bgView'
+lSLF07#2@59"Compile /Users/wcheung/iPhone-duffelup/trunk/CELL/regcell.m322344077#322344077#0(192"/Users/wcheung/iPhone-duffelup/trunk/CELL/regcell.m: In function '-[regcell loadDidFinishWithData:]':/Users/wcheung/iPhone-duffelup/trunk/CELL/regcell.m:83: warning: unused variable 'bgView'1(22@24"Unused variable 'bgView'322344077#102#90#0(6@51"/Users/wcheung/iPhone-duffelup/trunk/CELL/regcell.m322340429#83#0#83#0#19"unused variable '*'0(0#0#51"/Users/wcheung/iPhone-duffelup/trunk/CELL/regcell.m8610654112#1936"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-generated-files.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-own-target-headers.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-all-target-headers.hmap -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-project-headers.hmap -F/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator -I/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources/i386 -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources -include /var/folders/AZ/AZYGWtgUG40B+Fk-FACBj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/duffel_Prefix-cfasgziqprzbbkbhuvdyynjmjiwi/duffel_Prefix.pch -c /Users/wcheung/iPhone-duffelup/trunk/CELL/regcell.m -o /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/regcell.o0#
+
+CCompileC build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/regcell2.o /Users/wcheung/iPhone-duffelup/trunk/CELL/regcell2.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322344077.593087
+e322344077.659735
+r1
+xCompileC
+xbuild/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/regcell2.o
+x/Users/wcheung/iPhone-duffelup/trunk/CELL/regcell2.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/wcheung/iPhone-duffelup/trunk/CELL/regcell2.m322344077#322344077#0(0"0(0#0#52"/Users/wcheung/iPhone-duffelup/trunk/CELL/regcell2.m8610492128#1938"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-generated-files.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-own-target-headers.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-all-target-headers.hmap -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-project-headers.hmap -F/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator -I/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources/i386 -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources -include /var/folders/AZ/AZYGWtgUG40B+Fk-FACBj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/duffel_Prefix-cfasgziqprzbbkbhuvdyynjmjiwi/duffel_Prefix.pch -c /Users/wcheung/iPhone-duffelup/trunk/CELL/regcell2.m -o /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/regcell2.o0#
+
+CCompileC build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/tripcontroller.o /Users/wcheung/iPhone-duffelup/trunk/Classes/tripcontroller.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322344077.129086
+e322344077.328160
+r1
+xCompileC
+xbuild/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/tripcontroller.o
+x/Users/wcheung/iPhone-duffelup/trunk/Classes/tripcontroller.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/wcheung/iPhone-duffelup/trunk/Classes/tripcontroller.m: In function '-[tripcontroller _getdate]':
+o/Users/wcheung/iPhone-duffelup/trunk/Classes/tripcontroller.m:74: warning: format not a string literal and no format arguments
+o/Users/wcheung/iPhone-duffelup/trunk/Classes/tripcontroller.m: In function '-[tripcontroller tableView:titleForHeaderInSection:]':
+o/Users/wcheung/iPhone-duffelup/trunk/Classes/tripcontroller.m:177: warning: format not a string literal and no format arguments
+o/Users/wcheung/iPhone-duffelup/trunk/Classes/tripcontroller.m: In function '-[tripcontroller tableView:didSelectRowAtIndexPath:]':
+o/Users/wcheung/iPhone-duffelup/trunk/Classes/tripcontroller.m:383: warning: 'tripcontroller' may not respond to '-StopAnimation'
+o/Users/wcheung/iPhone-duffelup/trunk/Classes/tripcontroller.m:383: warning: (Messages without a matching method signature
+o/Users/wcheung/iPhone-duffelup/trunk/Classes/tripcontroller.m:383: warning: will be assumed to return 'id' and accept
+o/Users/wcheung/iPhone-duffelup/trunk/Classes/tripcontroller.m:383: warning: '...' as arguments.)
+lSLF07#2@69"Compile /Users/wcheung/iPhone-duffelup/trunk/Classes/tripcontroller.m322344077#322344077#0(1088"/Users/wcheung/iPhone-duffelup/trunk/Classes/tripcontroller.m: In function '-[tripcontroller _getdate]':/Users/wcheung/iPhone-duffelup/trunk/Classes/tripcontroller.m:74: warning: format not a string literal and no format arguments/Users/wcheung/iPhone-duffelup/trunk/Classes/tripcontroller.m: In function '-[tripcontroller tableView:titleForHeaderInSection:]':/Users/wcheung/iPhone-duffelup/trunk/Classes/tripcontroller.m:177: warning: format not a string literal and no format arguments/Users/wcheung/iPhone-duffelup/trunk/Classes/tripcontroller.m: In function '-[tripcontroller tableView:didSelectRowAtIndexPath:]':/Users/wcheung/iPhone-duffelup/trunk/Classes/tripcontroller.m:383: warning: 'tripcontroller' may not respond to '-StopAnimation'/Users/wcheung/iPhone-duffelup/trunk/Classes/tripcontroller.m:383: warning: (Messages without a matching method signature/Users/wcheung/iPhone-duffelup/trunk/Classes/tripcontroller.m:383: warning: will be assumed to return 'id' and accept/Users/wcheung/iPhone-duffelup/trunk/Classes/tripcontroller.m:383: warning: '...' as arguments.)4(22@51"Format not a string literal and no format arguments322344077#105#127#0(6@61"/Users/wcheung/iPhone-duffelup/trunk/Classes/tripcontroller.m322330951#74#0#74#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments322344077#363#128#0(6@61"/Users/wcheung/iPhone-duffelup/trunk/Classes/tripcontroller.m322330951#177#0#177#0#51"format not a string literal and no format arguments0(22@52"'tripcontroller' may not respond to '-StopAnimation'322344077#622#129#0(6@61"/Users/wcheung/iPhone-duffelup/trunk/Classes/tripcontroller.m322330951#383#0#383#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)322344077#751#122#0(6@61"/Users/wcheung/iPhone-duffelup/trunk/Classes/tripcontroller.m322330951#383#0#383#0#0"0(0#0#61"/Users/wcheung/iPhone-duffelup/trunk/Classes/tripcontroller.m8608436096#1953"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-generated-files.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-own-target-headers.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-all-target-headers.hmap -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-project-headers.hmap -F/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator -I/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources/i386 -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources -include /var/folders/AZ/AZYGWtgUG40B+Fk-FACBj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/duffel_Prefix-cfasgziqprzbbkbhuvdyynjmjiwi/duffel_Prefix.pch -c /Users/wcheung/iPhone-duffelup/trunk/Classes/tripcontroller.m -o /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/tripcontroller.o0#
+
+CCompileC build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/webviewcontroller.o /Users/wcheung/iPhone-duffelup/trunk/Classes/webviewcontroller.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322344077.057317
+e322344077.129000
+r1
+xCompileC
+xbuild/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/webviewcontroller.o
+x/Users/wcheung/iPhone-duffelup/trunk/Classes/webviewcontroller.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/wcheung/iPhone-duffelup/trunk/Classes/webviewcontroller.m322344077#322344077#0(0"0(0#0#64"/Users/wcheung/iPhone-duffelup/trunk/Classes/webviewcontroller.m8610499456#1959"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-generated-files.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-own-target-headers.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-all-target-headers.hmap -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-project-headers.hmap -F/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator -I/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources/i386 -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources -include /var/folders/AZ/AZYGWtgUG40B+Fk-FACBj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/duffel_Prefix-cfasgziqprzbbkbhuvdyynjmjiwi/duffel_Prefix.pch -c /Users/wcheung/iPhone-duffelup/trunk/Classes/webviewcontroller.m -o /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/webviewcontroller.o0#
+
+CCompileXIB /Users/wcheung/iPhone-duffelup/trunk/Classes/createcontroller.xib
+s322344075.755190
+e322344076.209548
+r1
+xCompileXIB
+x/Users/wcheung/iPhone-duffelup/trunk/Classes/createcontroller.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@39"CompileXIB Classes/createcontroller.xib322344075#322344076#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#65"/Users/wcheung/iPhone-duffelup/trunk/Classes/createcontroller.xib8600542624#583"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/createcontroller.nib /Users/wcheung/iPhone-duffelup/trunk/Classes/createcontroller.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/wcheung/iPhone-duffelup/trunk/Classes/mapcontroller.xib
+s322344075.169353
+e322344075.598382
+r1
+xCompileXIB
+x/Users/wcheung/iPhone-duffelup/trunk/Classes/mapcontroller.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@36"CompileXIB Classes/mapcontroller.xib322344075#322344075#0(588"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#62"/Users/wcheung/iPhone-duffelup/trunk/Classes/mapcontroller.xib8605439040#577"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/mapcontroller.nib /Users/wcheung/iPhone-duffelup/trunk/Classes/mapcontroller.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/wcheung/iPhone-duffelup/trunk/Classes/myduffelcontroller.xib
+s322344074.600169
+e322344075.331335
+r1
+xCompileXIB
+x/Users/wcheung/iPhone-duffelup/trunk/Classes/myduffelcontroller.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@41"CompileXIB Classes/myduffelcontroller.xib322344074#322344075#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#67"/Users/wcheung/iPhone-duffelup/trunk/Classes/myduffelcontroller.xib8609518464#587"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/myduffelcontroller.nib /Users/wcheung/iPhone-duffelup/trunk/Classes/myduffelcontroller.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/wcheung/iPhone-duffelup/trunk/Classes/notecontroller.xib
+s322344075.331407
+e322344075.897971
+r1
+xCompileXIB
+x/Users/wcheung/iPhone-duffelup/trunk/Classes/notecontroller.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@37"CompileXIB Classes/notecontroller.xib322344075#322344075#0(168"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#63"/Users/wcheung/iPhone-duffelup/trunk/Classes/notecontroller.xib8608408928#579"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/notecontroller.nib /Users/wcheung/iPhone-duffelup/trunk/Classes/notecontroller.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/wcheung/iPhone-duffelup/trunk/Classes/tripcontroller.xib
+s322344074.802244
+e322344075.167626
+r1
+xCompileXIB
+x/Users/wcheung/iPhone-duffelup/trunk/Classes/tripcontroller.xib
+lSLF07#2@37"CompileXIB Classes/tripcontroller.xib322344074#322344075#0(0"0(0#0#63"/Users/wcheung/iPhone-duffelup/trunk/Classes/tripcontroller.xib8608096256#579"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/tripcontroller.nib /Users/wcheung/iPhone-duffelup/trunk/Classes/tripcontroller.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/wcheung/iPhone-duffelup/trunk/Classes/webviewcontroller.xib
+s322344074.388375
+e322344074.802164
+r1
+xCompileXIB
+x/Users/wcheung/iPhone-duffelup/trunk/Classes/webviewcontroller.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@40"CompileXIB Classes/webviewcontroller.xib322344074#322344074#0(168"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#66"/Users/wcheung/iPhone-duffelup/trunk/Classes/webviewcontroller.xib8611552768#585"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/webviewcontroller.nib /Users/wcheung/iPhone-duffelup/trunk/Classes/webviewcontroller.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/wcheung/iPhone-duffelup/trunk/MainWindow.xib
+s322344073.987788
+e322344074.388298
+r1
+xCompileXIB
+x/Users/wcheung/iPhone-duffelup/trunk/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib322344073#322344074#0(0"0(0#0#51"/Users/wcheung/iPhone-duffelup/trunk/MainWindow.xib8605327328#563"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/MainWindow.nib /Users/wcheung/iPhone-duffelup/trunk/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/wcheung/iPhone-duffelup/trunk/RootViewController.xib
+s322344073.988368
+e322344074.600091
+r1
+xCompileXIB
+x/Users/wcheung/iPhone-duffelup/trunk/RootViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@33"CompileXIB RootViewController.xib322344073#322344074#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#59"/Users/wcheung/iPhone-duffelup/trunk/RootViewController.xib8605090080#579"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/RootViewController.nib /Users/wcheung/iPhone-duffelup/trunk/RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCopyPlistFile /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/Entitlements.plist Entitlements.plist
+s322344075.899092
+e322344075.925188
+r1
+xCopyPlistFile
+x/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/Entitlements.plist
+xEntitlements.plist
+lSLF07#2@23"Copy Entitlements.plist322344075#322344075#0(0"0(0#0#55"/Users/wcheung/iPhone-duffelup/trunk/Entitlements.plist8601621120#388"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Entitlements.plist --outdir /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app0#
+
+CCopyPlistFile /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/SDKSettings.plist JSON/iphoneos.sdk/SDKSettings.plist
+s322344075.616587
+e322344075.716195
+r1
+xCopyPlistFile
+x/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/SDKSettings.plist
+xJSON/iphoneos.sdk/SDKSettings.plist
+lSLF07#2@40"Copy JSON/iphoneos.sdk/SDKSettings.plist322344075#322344075#0(0"0(0#0#72"/Users/wcheung/iPhone-duffelup/trunk/JSON/iphoneos.sdk/SDKSettings.plist8601763136#405"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 JSON/iphoneos.sdk/SDKSettings.plist --outdir /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app0#
+
+CCopyPlistFile /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/SDKSettings.plist JSON/iphonesimulator.sdk/SDKSettings.plist
+s322344075.716280
+e322344075.738479
+r1
+xCopyPlistFile
+x/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/SDKSettings.plist
+xJSON/iphonesimulator.sdk/SDKSettings.plist
+lSLF07#2@47"Copy JSON/iphonesimulator.sdk/SDKSettings.plist322344075#322344075#0(0"0(0#0#79"/Users/wcheung/iPhone-duffelup/trunk/JSON/iphonesimulator.sdk/SDKSettings.plist8600906368#412"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 JSON/iphonesimulator.sdk/SDKSettings.plist --outdir /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app0#
+
+CCpResource build/Debug-iphonesimulator/Duffel.app/BG_Corkboard.png BG_Corkboard.png
+s322344075.925935
+e322344075.934456
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Duffel.app/BG_Corkboard.png
+xBG_Corkboard.png
+lSLF07#2@21"Copy BG_Corkboard.png322344075#322344075#0(0"0(0#0#53"/Users/wcheung/iPhone-duffelup/trunk/BG_Corkboard.png8590441024#467"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wcheung/iPhone-duffelup/trunk/BG_Corkboard.png /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app0#
+
+CCpResource build/Debug-iphonesimulator/Duffel.app/Default.png Images/Default.png
+s322344075.898631
+e322344075.904896
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Duffel.app/Default.png
+xImages/Default.png
+lSLF07#2@23"Copy Images/Default.png322344075#322344075#0(0"0(0#0#55"/Users/wcheung/iPhone-duffelup/trunk/Images/Default.png8604141472#469"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wcheung/iPhone-duffelup/trunk/Images/Default.png /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app0#
+
+CCpResource build/Debug-iphonesimulator/Duffel.app/GotoWebsite.png GotoWebsite.png
+s322344075.929507
+e322344075.940085
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Duffel.app/GotoWebsite.png
+xGotoWebsite.png
+lSLF07#2@20"Copy GotoWebsite.png322344075#322344075#0(0"0(0#0#52"/Users/wcheung/iPhone-duffelup/trunk/GotoWebsite.png8606480032#466"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wcheung/iPhone-duffelup/trunk/GotoWebsite.png /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app0#
+
+CCpResource build/Debug-iphonesimulator/Duffel.app/acbg.png acbg.png
+s322344075.927962
+e322344075.934564
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Duffel.app/acbg.png
+xacbg.png
+lSLF07#2@13"Copy acbg.png322344075#322344075#0(0"0(0#0#45"/Users/wcheung/iPhone-duffelup/trunk/acbg.png8607848928#459"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wcheung/iPhone-duffelup/trunk/acbg.png /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app0#
+
+CCpResource build/Debug-iphonesimulator/Duffel.app/activity.png Images/activity.png
+s322344075.605469
+e322344075.628100
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Duffel.app/activity.png
+xImages/activity.png
+lSLF07#2@24"Copy Images/activity.png322344075#322344075#0(0"0(0#0#56"/Users/wcheung/iPhone-duffelup/trunk/Images/activity.png8608272704#470"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wcheung/iPhone-duffelup/trunk/Images/activity.png /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app0#
+
+CCpResource build/Debug-iphonesimulator/Duffel.app/bg-board.jpg Images/bg-board.jpg
+s322344075.599270
+e322344075.618477
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Duffel.app/bg-board.jpg
+xImages/bg-board.jpg
+lSLF07#2@24"Copy Images/bg-board.jpg322344075#322344075#0(0"0(0#0#56"/Users/wcheung/iPhone-duffelup/trunk/Images/bg-board.jpg8611587456#470"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wcheung/iPhone-duffelup/trunk/Images/bg-board.jpg /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app0#
+
+CCpResource build/Debug-iphonesimulator/Duffel.app/btnblue.png Images/btnblue.png
+s322344075.738560
+e322344075.752588
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Duffel.app/btnblue.png
+xImages/btnblue.png
+lSLF07#2@23"Copy Images/btnblue.png322344075#322344075#0(0"0(0#0#55"/Users/wcheung/iPhone-duffelup/trunk/Images/btnblue.png8611653440#469"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wcheung/iPhone-duffelup/trunk/Images/btnblue.png /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app0#
+
+CCpResource build/Debug-iphonesimulator/Duffel.app/button.png Images/button.png
+s322344075.167703
+e322344075.173863
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Duffel.app/button.png
+xImages/button.png
+lSLF07#2@22"Copy Images/button.png322344075#322344075#0(0"0(0#0#54"/Users/wcheung/iPhone-duffelup/trunk/Images/button.png8608368384#468"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wcheung/iPhone-duffelup/trunk/Images/button.png /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app0#
+
+CCpResource build/Debug-iphonesimulator/Duffel.app/duffel.sqlite duffel.sqlite
+s322344075.742593
+e322344075.763573
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Duffel.app/duffel.sqlite
+xduffel.sqlite
+lSLF07#2@18"Copy duffel.sqlite322344075#322344075#0(0"0(0#0#50"/Users/wcheung/iPhone-duffelup/trunk/duffel.sqlite8608476512#464"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wcheung/iPhone-duffelup/trunk/duffel.sqlite /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app0#
+
+CCpResource build/Debug-iphonesimulator/Duffel.app/food.png Images/food.png
+s322344075.603788
+e322344075.623087
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Duffel.app/food.png
+xImages/food.png
+lSLF07#2@20"Copy Images/food.png322344075#322344075#0(0"0(0#0#52"/Users/wcheung/iPhone-duffelup/trunk/Images/food.png8608693152#466"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wcheung/iPhone-duffelup/trunk/Images/food.png /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app0#
+
+CCpResource build/Debug-iphonesimulator/Duffel.app/icon-duffel.png icon-duffel.png
+s322344075.932562
+e322344075.938011
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Duffel.app/icon-duffel.png
+xicon-duffel.png
+lSLF07#2@20"Copy icon-duffel.png322344075#322344075#0(0"0(0#0#52"/Users/wcheung/iPhone-duffelup/trunk/icon-duffel.png8596582368#466"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wcheung/iPhone-duffelup/trunk/icon-duffel.png /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app0#
+
+CCpResource build/Debug-iphonesimulator/Duffel.app/icon.png icon.png
+s322344075.925264
+e322344075.934347
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Duffel.app/icon.png
+xicon.png
+lSLF07#2@13"Copy icon.png322344075#322344075#0(0"0(0#0#45"/Users/wcheung/iPhone-duffelup/trunk/icon.png8598261376#459"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wcheung/iPhone-duffelup/trunk/icon.png /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app0#
+
+CCpResource build/Debug-iphonesimulator/Duffel.app/index.png index.png
+s322344075.598510
+e322344075.611677
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Duffel.app/index.png
+xindex.png
+lSLF07#2@14"Copy index.png322344075#322344075#0(0"0(0#0#46"/Users/wcheung/iPhone-duffelup/trunk/index.png8611727808#460"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wcheung/iPhone-duffelup/trunk/index.png /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app0#
+
+CCpResource build/Debug-iphonesimulator/Duffel.app/leftarrow2.png Images/leftarrow2.png
+s322344075.739608
+e322344075.752787
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Duffel.app/leftarrow2.png
+xImages/leftarrow2.png
+lSLF07#2@26"Copy Images/leftarrow2.png322344075#322344075#0(0"0(0#0#58"/Users/wcheung/iPhone-duffelup/trunk/Images/leftarrow2.png8610844960#472"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wcheung/iPhone-duffelup/trunk/Images/leftarrow2.png /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app0#
+
+CCpResource build/Debug-iphonesimulator/Duffel.app/lodging.png lodging.png
+s322344075.898047
+e322344075.903548
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Duffel.app/lodging.png
+xlodging.png
+lSLF07#2@16"Copy lodging.png322344075#322344075#0(0"0(0#0#48"/Users/wcheung/iPhone-duffelup/trunk/lodging.png8605233824#462"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wcheung/iPhone-duffelup/trunk/lodging.png /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app0#
+
+CCpResource build/Debug-iphonesimulator/Duffel.app/logo.png Images/logo.png
+s322344075.608474
+e322344075.624732
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Duffel.app/logo.png
+xImages/logo.png
+lSLF07#2@20"Copy Images/logo.png322344075#322344075#0(0"0(0#0#52"/Users/wcheung/iPhone-duffelup/trunk/Images/logo.png8605182336#466"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wcheung/iPhone-duffelup/trunk/Images/logo.png /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app0#
+
+CCpResource build/Debug-iphonesimulator/Duffel.app/my.png Images/my.png
+s322344075.613303
+e322344075.700708
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Duffel.app/my.png
+xImages/my.png
+lSLF07#2@18"Copy Images/my.png322344075#322344075#0(0"0(0#0#50"/Users/wcheung/iPhone-duffelup/trunk/Images/my.png8603738368#464"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wcheung/iPhone-duffelup/trunk/Images/my.png /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app0#
+
+CCpResource build/Debug-iphonesimulator/Duffel.app/myduffel.png Images/myduffel.png
+s322344075.609978
+e322344075.626449
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Duffel.app/myduffel.png
+xImages/myduffel.png
+lSLF07#2@24"Copy Images/myduffel.png322344075#322344075#0(0"0(0#0#56"/Users/wcheung/iPhone-duffelup/trunk/Images/myduffel.png8604912640#470"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wcheung/iPhone-duffelup/trunk/Images/myduffel.png /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app0#
+
+CCpResource build/Debug-iphonesimulator/Duffel.app/noimage.png Images/noimage.png
+s322344075.744408
+e322344075.758985
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Duffel.app/noimage.png
+xImages/noimage.png
+lSLF07#2@23"Copy Images/noimage.png322344075#322344075#0(0"0(0#0#55"/Users/wcheung/iPhone-duffelup/trunk/Images/noimage.png8608321216#469"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wcheung/iPhone-duffelup/trunk/Images/noimage.png /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app0#
+
+CCpResource build/Debug-iphonesimulator/Duffel.app/note.png Images/note.png
+s322344075.602279
+e322344075.616524
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Duffel.app/note.png
+xImages/note.png
+lSLF07#2@20"Copy Images/note.png322344075#322344075#0(0"0(0#0#52"/Users/wcheung/iPhone-duffelup/trunk/Images/note.png8609617376#466"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wcheung/iPhone-duffelup/trunk/Images/note.png /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app0#
+
+CCpResource build/Debug-iphonesimulator/Duffel.app/note5.png Images/note5.png
+s322344075.740078
+e322344075.757236
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Duffel.app/note5.png
+xImages/note5.png
+lSLF07#2@21"Copy Images/note5.png322344075#322344075#0(0"0(0#0#53"/Users/wcheung/iPhone-duffelup/trunk/Images/note5.png8609777600#467"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wcheung/iPhone-duffelup/trunk/Images/note5.png /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app0#
+
+CCpResource build/Debug-iphonesimulator/Duffel.app/panel.png panel.png
+s322344075.752935
+e322344075.767329
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Duffel.app/panel.png
+xpanel.png
+lSLF07#2@14"Copy panel.png322344075#322344075#0(0"0(0#0#46"/Users/wcheung/iPhone-duffelup/trunk/panel.png8601334496#460"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wcheung/iPhone-duffelup/trunk/panel.png /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app0#
+
+CCpResource build/Debug-iphonesimulator/Duffel.app/rightarrow2.png Images/rightarrow2.png
+s322344075.739142
+e322344075.752691
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Duffel.app/rightarrow2.png
+xImages/rightarrow2.png
+lSLF07#2@27"Copy Images/rightarrow2.png322344075#322344075#0(0"0(0#0#59"/Users/wcheung/iPhone-duffelup/trunk/Images/rightarrow2.png8611524512#473"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wcheung/iPhone-duffelup/trunk/Images/rightarrow2.png /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app0#
+
+CCpResource build/Debug-iphonesimulator/Duffel.app/settings.png Images/settings.png
+s322344075.611830
+e322344075.630380
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Duffel.app/settings.png
+xImages/settings.png
+lSLF07#2@24"Copy Images/settings.png322344075#322344075#0(0"0(0#0#56"/Users/wcheung/iPhone-duffelup/trunk/Images/settings.png8604548160#470"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wcheung/iPhone-duffelup/trunk/Images/settings.png /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app0#
+
+CCpResource build/Debug-iphonesimulator/Duffel.app/tab-left.png Images/tab-left.png
+s322344075.747042
+e322344075.763442
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Duffel.app/tab-left.png
+xImages/tab-left.png
+lSLF07#2@24"Copy Images/tab-left.png322344075#322344075#0(0"0(0#0#56"/Users/wcheung/iPhone-duffelup/trunk/Images/tab-left.png8604745248#470"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wcheung/iPhone-duffelup/trunk/Images/tab-left.png /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app0#
+
+CCpResource build/Debug-iphonesimulator/Duffel.app/tab-right.png Images/tab-right.png
+s322344075.750396
+e322344075.757353
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Duffel.app/tab-right.png
+xImages/tab-right.png
+lSLF07#2@25"Copy Images/tab-right.png322344075#322344075#0(0"0(0#0#57"/Users/wcheung/iPhone-duffelup/trunk/Images/tab-right.png8602146304#471"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wcheung/iPhone-duffelup/trunk/Images/tab-right.png /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app0#
+
+CCpResource build/Debug-iphonesimulator/Duffel.app/thumb.png Images/thumb.png
+s322344075.606975
+e322344075.621702
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Duffel.app/thumb.png
+xImages/thumb.png
+lSLF07#2@21"Copy Images/thumb.png322344075#322344075#0(0"0(0#0#53"/Users/wcheung/iPhone-duffelup/trunk/Images/thumb.png8607849824#467"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wcheung/iPhone-duffelup/trunk/Images/thumb.png /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app0#
+
+CCpResource build/Debug-iphonesimulator/Duffel.app/transportation.png Images/transportation.png
+s322344075.600771
+e322344075.611781
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Duffel.app/transportation.png
+xImages/transportation.png
+lSLF07#2@30"Copy Images/transportation.png322344075#322344075#0(0"0(0#0#62"/Users/wcheung/iPhone-duffelup/trunk/Images/transportation.png8609826816#476"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wcheung/iPhone-duffelup/trunk/Images/transportation.png /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app0#
+
+CCpResource build/Debug-iphonesimulator/Duffel.app/ynote3.png Images/ynote3.png
+s322344075.740533
+e322344075.752883
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Duffel.app/ynote3.png
+xImages/ynote3.png
+lSLF07#2@22"Copy Images/ynote3.png322344075#322344075#0(0"0(0#0#54"/Users/wcheung/iPhone-duffelup/trunk/Images/ynote3.png8609335296#468"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wcheung/iPhone-duffelup/trunk/Images/ynote3.png /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app0#
+
+CGenerateDSYMFile /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app.dSYM /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/Duffel
+s322344078.401919
+e322344078.478008
+r1
+xGenerateDSYMFile
+x/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app.dSYM
+x/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/Duffel
+lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/Duffel.app.dSYM build/Debug-iphonesimulator/Duffel.app/Duffel322344078#322344078#0(0"0(0#0#82"/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/Duffel8607948832#374"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/Duffel -o /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app.dSYM0#
+
+CLd /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/Duffel normal i386
+s322344078.083591
+e322344078.401837
+r1
+xLd
+x/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/Duffel
+xnormal
+xi386
+old: warning: in /Users/wcheung/iPhone-duffelup/trunk/JSON/iphoneos.sdk/usr/local/lib/libjson.a, file was built for unsupported file format which is not the architecture being linked (i386)
+lSLF07#2@87"Link /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/Duffel322344078#322344078#0(189"ld: warning: in /Users/wcheung/iPhone-duffelup/trunk/JSON/iphoneos.sdk/usr/local/lib/libjson.a, file was built for unsupported file format which is not the architecture being linked (i386)1(22@175"In /Users/wcheung/iPhone-duffelup/trunk/JSON/iphoneos.sdk/usr/local/lib/libjson.a, file was built for unsupported file format which is not the architecture being linked (i386)322344078#0#189#0(6@0"322344078#0#0#0#0#0"0(0#0#0"8609474272#1196"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator -L/Users/wcheung/iPhone-duffelup/trunk/JSON/iphoneos.sdk/usr/local/lib -L/Users/wcheung/iPhone-duffelup/trunk/JSON/iphonesimulator.sdk/usr/local/lib -L/Users/wcheung/iPhone-duffelup/trunk/JSON/macosx.sdk/usr/local/lib -F/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator -filelist /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Objects-normal/i386/Duffel.LinkFileList -mmacosx-version-min=10.6 -lxml2 -ljson -ObjC -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -framework MapKit -ljson -ljson -ljson -lsqlite3.0 -o /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/Duffel0#
+
+CProcessInfoPlistFile /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/Info.plist duffel-Info.plist
+s322344073.984516
+e322344073.987721
+r1
+xProcessInfoPlistFile
+x/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/Info.plist
+xduffel-Info.plist
+lSLF07#2@25"Process duffel-Info.plist322344073#322344073#0(0"0(0#0#54"/Users/wcheung/iPhone-duffelup/trunk/duffel-Info.plist28429445101453416#470"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility duffel-Info.plist -genpkginfo /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app/Info.plist0#
+
+CProcessPCH /var/folders/AZ/AZYGWtgUG40B+Fk-FACBj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/duffel_Prefix-cfasgziqprzbbkbhuvdyynjmjiwi/duffel_Prefix.pch.gch duffel_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s322344076.209654
+e322344076.793624
+r1
+xProcessPCH
+x/var/folders/AZ/AZYGWtgUG40B+Fk-FACBj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/duffel_Prefix-cfasgziqprzbbkbhuvdyynjmjiwi/duffel_Prefix.pch.gch
+xduffel_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile duffel_Prefix.pch322344076#322344076#0(0"0(0#0#54"/Users/wcheung/iPhone-duffelup/trunk/duffel_Prefix.pch8610554336#1820"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-generated-files.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-own-target-headers.hmap -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-all-target-headers.hmap -iquote /Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/Duffel-project-headers.hmap -F/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator -I/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources/i386 -I/Users/wcheung/iPhone-duffelup/trunk/build/duffel.build/Debug-iphonesimulator/duffel.build/DerivedSources -c /Users/wcheung/iPhone-duffelup/trunk/duffel_Prefix.pch -o /var/folders/AZ/AZYGWtgUG40B+Fk-FACBj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/duffel_Prefix-cfasgziqprzbbkbhuvdyynjmjiwi/duffel_Prefix.pch.gch0#
+
+CTouch /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app
+s322344078.478083
+e322344078.482349
+r1
+xTouch
+x/Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app
+lSLF07#2@81"Touch /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app322344078#322344078#0(0"0(0#0#0"8605159232#273"    cd /Users/wcheung/iPhone-duffelup/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/wcheung/iPhone-duffelup/trunk/build/Debug-iphonesimulator/Duffel.app0#
+

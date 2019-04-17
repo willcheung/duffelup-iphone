@@ -1,0 +1,170 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* duffelAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1322, 16815}}";
+			sepNavSelRange = "{7577, 0}";
+			sepNavVisRange = "{7447, 682}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* duffel */ = {
+		activeExec = 0;
+		executables = (
+			92635A0612D5AB38004CA805 /* duffel */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 92635A0612D5AB38004CA805 /* duffel */;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* duffel */;
+		codeSenseManager = 92635A2D12D5AB4D004CA805 /* Code sense */;
+		executables = (
+			92635A0612D5AB38004CA805 /* duffel */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					725,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 316075812;
+			PBXWorkspaceStateSaveDate = 316075812;
+		};
+		perUserProjectItems = {
+			9257072612D6EC630045DDA8 = 9257072612D6EC630045DDA8 /* PlistBookmark */;
+			9257075D12D6EF3B0045DDA8 /* PlistBookmark */ = 9257075D12D6EF3B0045DDA8 /* PlistBookmark */;
+			9257076C12D6EF470045DDA8 /* PlistBookmark */ = 9257076C12D6EF470045DDA8 /* PlistBookmark */;
+			92635A3E12D5AD34004CA805 = 92635A3E12D5AD34004CA805 /* PlistBookmark */;
+			92635A4A12D5AE45004CA805 = 92635A4A12D5AE45004CA805 /* PBXTextBookmark */;
+			92635A5312D5B49D004CA805 = 92635A5312D5B49D004CA805 /* PlistBookmark */;
+		};
+		sourceControlManager = 92635A2C12D5AB4D004CA805 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	9257072612D6EC630045DDA8 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* duffel-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/wcheung/RailsApps/duffelup-iphone/trunk/duffel-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	9257075D12D6EF3B0045DDA8 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* duffel-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/wcheung/Desktop/duffel/duffel-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	9257076C12D6EF470045DDA8 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* duffel-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/wcheung/Desktop/duffel/duffel-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	92635A0612D5AB38004CA805 /* duffel */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = duffel;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	92635A2C12D5AB4D004CA805 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	92635A2D12D5AB4D004CA805 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	92635A3E12D5AD34004CA805 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* duffel-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/wcheung/Desktop/duffel/duffel-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	92635A4A12D5AE45004CA805 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* duffelAppDelegate.m */;
+		name = "duffelAppDelegate.m: 252";
+		rLen = 0;
+		rLoc = 7577;
+		rType = 0;
+		vrLen = 909;
+		vrLoc = 7220;
+	};
+	92635A5312D5B49D004CA805 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* duffel-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/wcheung/Desktop/duffel/duffel-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+}

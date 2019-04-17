@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/duffelup-iphone/!svn/ver/2/trunk/JSON/macosx.sdk/usr/local/include/JSON
+END
+JSON.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/duffelup-iphone/!svn/ver/2/trunk/JSON/macosx.sdk/usr/local/include/JSON/JSON.h
+END
+SBJsonBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/duffelup-iphone/!svn/ver/2/trunk/JSON/macosx.sdk/usr/local/include/JSON/SBJsonBase.h
+END
+SBJsonParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/duffelup-iphone/!svn/ver/2/trunk/JSON/macosx.sdk/usr/local/include/JSON/SBJsonParser.h
+END
+SBJsonWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/duffelup-iphone/!svn/ver/2/trunk/JSON/macosx.sdk/usr/local/include/JSON/SBJsonWriter.h
+END
+SBJSON.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/duffelup-iphone/!svn/ver/2/trunk/JSON/macosx.sdk/usr/local/include/JSON/SBJSON.h
+END
+NSObject+SBJSON.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/duffelup-iphone/!svn/ver/2/trunk/JSON/macosx.sdk/usr/local/include/JSON/NSObject+SBJSON.h
+END
+NSString+SBJSON.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/duffelup-iphone/!svn/ver/2/trunk/JSON/macosx.sdk/usr/local/include/JSON/NSString+SBJSON.h
+END

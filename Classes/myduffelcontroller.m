@@ -1,0 +1,578 @@
+//
+//  myduffelcontroller.m
+//  duffel
+//
+//  Created by Jay Vachhani on 4/1/10.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+
+#import "myduffelcontroller.h"
+#import <QuartzCore/QuartzCore.h>
+
+
+@implementation myduffelcontroller
+
+//  http://s3.amazonaws.com/duffelup_trip_production/photos/[trip  id]/thumb/[filename].
+
+// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
+- (void) viewDidLoad
+{
+	refreshCount=0;
+	appDelegate = [[UIApplication sharedApplication] delegate];
+	//[self move];
+	
+	if(appDelegate.isFirstTime == TRUE)
+		[NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(move) userInfo:nil repeats:NO];
+
+	self.navigationItem.hidesBackButton = TRUE;
+	self.navigationItem.rightBarButtonItem = rightbtn;
+
+	//	[appDelegate getuserdata:appDelegate.username];
+	
+	tblview.delegate = self;
+	tblview.dataSource = self;
+	tbbar.delegate = self;
+	
+	[tbbar setSelectedItem:myduffeltab];
+	
+	tab = 0;
+	
+	[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:FALSE];
+	
+	isdidfirst = TRUE;
+	
+	
+    [super viewDidLoad];
+}
+
+- (void)viewWillAppear:(BOOL)animated 
+{
+	self.navigationItem.title = @"My Duffels";
+	
+	[actview1 stopAnimating];
+	bk_act1.hidden = TRUE;
+	bk_lbl1.hidden = TRUE;
+	
+    [super viewWillAppear:animated];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+	if(!appDelegate)
+		appDelegate = [[UIApplication sharedApplication] delegate];
+
+	if(!isdidfirst)
+	{
+	//	[self performSelectorInBackground:@selector(move) withObject:nil];
+		return;
+	}
+	if(appDelegate.isFirstTime)
+	{
+		//[self performSelectorInBackground:@selector(move) withObject:nil];
+		[NSTimer scheduledTimerWithTimeInterval:0.2 target:self selector:@selector(isitsfirsttime) userInfo:nil repeats:NO];
+		return;
+	}
+	
+	[tblview reloadData];
+	[actview stopAnimating];
+	bk_act.hidden = TRUE;
+	bk_lbl.hidden = TRUE;
+}
+
+-(void) isitsfirsttime
+{
+	if(![appDelegate connectedToNetwork])
+	{
+		UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"" message:@"Internet connection is not available" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+		[alert show];
+		[alert release];
+	}
+	else
+	{
+
+		++refreshCount;
+		[appDelegate getalldata];
+		[appDelegate.tripsData setValue:appDelegate.username forKey:@"username"];
+		[appDelegate.tripsData setValue:appDelegate.password forKey:@"password"];
+		
+//mib		appDelegate.arr_fav = (NSMutableArray *) [[NSUserDefaults standardUserDefaults] valueForKey:[NSString stringWithFormat:@"fav_%@",appDelegate.username]];
+//mib		appDelegate.arr_plan = (NSMutableArray *) [[NSUserDefaults standardUserDefaults] valueForKey:[NSString stringWithFormat:@"plan_%@",appDelegate.username]];
+//mib		appDelegate.arr_nodate = (NSMutableArray *) [[NSUserDefaults standardUserDefaults] valueForKey:[NSString stringWithFormat:@"nodate_%@",appDelegate.username]];
+	}
+	appDelegate.isFirstTime = FALSE;
+	[tblview reloadData];
+	[actview stopAnimating];
+	bk_act.hidden = TRUE;
+	bk_lbl.hidden = TRUE;
+	[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:FALSE];
+}
+
+-(void) move
+{	
+	[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:TRUE];
+	[actview startAnimating];
+	bk_act.hidden = FALSE;
+	bk_lbl.hidden = FALSE;
+}
+
+-(void) move1
+{	
+	[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:TRUE];
+	[actview1 startAnimating];
+	bk_act1.hidden = FALSE;
+	bk_lbl1.hidden = FALSE;
+}
+
+- (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item
+{
+	if(tab == 0)
+	{
+		if(item.tag == 1)
+		{
+			tab = 1;
+			[self settingview_animate];
+			self.navigationItem.rightBarButtonItem = nil;
+			
+			lbllasttime.text = [[NSUserDefaults standardUserDefaults] valueForKey:@"lasttime"];
+			
+		}
+	}
+	else if(tab == 1)
+	{
+		if(item.tag == 0)
+		{
+			tab = 0;
+			self.navigationItem.rightBarButtonItem = rightbtn;
+			[self mainview_animate];
+			[tblview reloadData];
+			[actview stopAnimating];
+			bk_act.hidden = TRUE;
+			bk_lbl.hidden = TRUE;
+		}
+	}
+}
+
+-(void) mainview_animate
+{
+	self.navigationItem.title = @"My Duffels";
+	[settingview removeFromSuperview];
+	return;
+	
+	CATransition *animation = [CATransition animation];
+	[animation setDelegate:self];
+	// Set the type and if appropriate direction of the transition, 
+	[animation setType:kCATransitionFade];
+	[animation setSubtype:kCATransitionFromBottom];
+	// Set the duration and timing function of the transtion -- duration is passed in as a parameter, use ease in/ease out as the timing function
+	[animation setDuration:0.3];
+	[animation setTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionLinear]];
+	[[settingview layer] addAnimation:animation forKey:@"transitionViewAnimation"];	
+	
+	[settingview removeFromSuperview];
+	
+	[[settingview layer] removeAnimationForKey:@"transitionViewAnimation"];
+	animation = nil;
+}
+
+-(void) settingview_animate
+{
+	self.navigationItem.title = @"Settings";
+	[self.view addSubview:settingview];
+	return;
+	
+	CATransition *animation = [CATransition animation];
+	[animation setDelegate:self];
+	[animation setType:kCATransitionFade];
+	[animation setSubtype:kCATransitionFromBottom];
+	[animation setDuration:0.3];
+	[animation setTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionLinear]];
+	[[settingview layer] addAnimation:animation forKey:@"transitionViewAnimation"];	
+	
+	
+	
+	[self.view addSubview:settingview];
+	
+	[[settingview layer] removeAnimationForKey:@"transitionViewAnimation"];
+	animation = nil;
+	
+}
+
+#pragma mark Table view methods
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+	return 2;
+}
+
+
+// Customize the number of rows in the table view.
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+	if(section == 0)
+		return [appDelegate.arr_plan count];
+	else if(section == 1)
+		return [appDelegate.arr_fav count];
+//	else
+//		return [appDelegate.arr_nodate count];
+	return 0;
+}
+
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+	if(section == 0)
+	{
+		if([appDelegate.arr_plan count] > 0)
+			return [NSString stringWithFormat:@"Active Duffels"];
+	}
+	else if(section == 1)
+	{
+		if([appDelegate.arr_fav count] > 0)
+			return [NSString stringWithFormat:@"Favorite Duffels"];
+	}
+/*	else 
+	{
+		if([appDelegate.arr_nodate count] > 0)
+			return [NSString stringWithFormat:@"Unscheduled Duffels"];
+	}
+*/	
+	return @"";
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+	return 74;
+}
+
+// Customize the appearance of table view cells.
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+	
+
+	NSString *CellIdentifier = [NSString stringWithFormat:@"myduffelCell%d%d%d",refreshCount,indexPath.section,indexPath.row];
+
+	regcell *cell = (regcell *) [tblview dequeueReusableCellWithIdentifier:CellIdentifier];
+	if (cell == nil) {
+		cell = [[[regcell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+	}
+	else
+		return cell;
+	
+	// Configure the cell.
+	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+	cell.image.frame = CGRectMake(1, 4, 65, 65);
+	
+	cell.lbl.font = [UIFont boldSystemFontOfSize:17];
+	
+	cell.lbl.frame = CGRectMake(69, 4, 230, 22);
+	cell.lbl2.frame = CGRectMake(69, 26, 230, 22);
+	cell.lbl3.frame = CGRectMake(69, 48, 230, 22);
+	
+	cell.lbl2.hidden = FALSE;
+	cell.lbl3.hidden = FALSE;
+		
+	NSMutableDictionary* dics;
+	
+	if(indexPath.section == 0)
+		dics = [appDelegate.arr_plan objectAtIndex:indexPath.row];
+	else if(indexPath.section == 1)
+		dics = [appDelegate.arr_fav objectAtIndex:indexPath.row];
+//	else
+//		dics = [appDelegate.arr_nodate objectAtIndex:indexPath.row];
+		
+	cell.lbl.text =	[dics valueForKey:@"title"];
+	
+	if(indexPath.section == 2 )
+	{
+		cell.lbl2.hidden = TRUE;
+		cell.lbl3.frame = CGRectMake(69, 26, 230, 22);
+	}
+	else
+	{
+		NSString* sd = [dics valueForKey:@"start-date"];
+		if(sd == nil || [sd isEqualToString:@""])
+		{
+			cell.lbl2.hidden = TRUE;
+			cell.lbl3.frame = CGRectMake(69, 26, 230, 22);
+		}
+		else if(sd != nil)
+		{
+			NSCharacterSet *set1 = [NSCharacterSet characterSetWithCharactersInString:@"\n"];
+			sd=[sd stringByTrimmingCharactersInSet:set1];
+			set1 = [NSCharacterSet characterSetWithCharactersInString:@"\t"];
+			sd=[sd stringByTrimmingCharactersInSet:set1];
+			set1 = [NSCharacterSet characterSetWithCharactersInString:@" "];
+			sd=[sd stringByTrimmingCharactersInSet:set1];
+			if([sd isEqualToString:@""])
+			{
+				cell.lbl2.hidden = TRUE;
+				cell.lbl3.frame = CGRectMake(69, 26, 230, 22);
+			}
+			else
+			{
+				cell.lbl2.hidden = FALSE;
+				cell.lbl2.frame = CGRectMake(69, 26, 230, 22);
+				cell.lbl3.frame = CGRectMake(69, 48, 230, 22);
+				
+				int year1 = [[sd substringToIndex:4] intValue];
+				
+				NSString* temp = [sd substringFromIndex:5];
+				int month1 = [[temp substringToIndex:2] intValue];
+				
+				temp = [sd substringFromIndex:8];
+				int date1 = [[temp substringToIndex:2] intValue];
+				
+				NSString* s3 = @"Departs ";
+				cell.lbl2.text = [s3 stringByAppendingString:[appDelegate DayOfWeek:month1 :date1 :year1]];
+				//cell.lbl2.text = [appDelegate DayOfWeek:month1 :date1 :year1];
+			}
+		}
+	}
+	
+	cell.lbl3.text = [appDelegate removeUS:[dics valueForKey:@"destination"]];
+	
+/*	
+	NSData* data = [[NSUserDefaults standardUserDefaults] valueForKey:[NSString stringWithFormat:@"%@%@%@",appDelegate.username,[dics valueForKey:@"id"],[dics valueForKey:@"photo-file-name"]]];
+	
+
+	if(data)
+		cell.image.image = [UIImage imageWithData:data];
+	else
+		cell.image.image = [UIImage imageNamed:@"icon.png"];
+*/	
+	
+	 // [NSString stringWithFormat:@"%@%@%@",username,[dicplan valueForKey:@"id"],[dicplan valueForKey:@"photo-file-name"]]
+	//if([[dics valueForKey:@"photo-file-name"] length] > 5)
+	if([[dics valueForKey:@"photo-file-name"] length] > 5 && [[[dics valueForKey:@"photo-file-name"] substringToIndex:5] isEqualToString:@"http:"])
+	{
+	//	NSLog([dics valueForKey:@"photo-file-name"]);
+		[NSThread detachNewThreadSelector:@selector(performAsyncLoadWithURL:) toTarget:cell withObject:[NSURL URLWithString:[dics valueForKey:@"photo-file-name"]]];
+	}
+	else
+	{
+		NSString* url = [NSString stringWithFormat:@"http://s3.amazonaws.com/duffelup_trip_production/photos/%@/thumb/%@",[dics valueForKey:@"id"],[dics valueForKey:@"photo-file-name"]];
+	//	NSLog([dics valueForKey:@"photo-file-name"]);
+		[NSThread detachNewThreadSelector:@selector(performAsyncLoadWithURL:) toTarget:cell withObject:[NSURL URLWithString:url]];
+	}
+	 
+	
+	
+	return cell;
+}
+
+
+// Override to support row selection in the table view.
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+	
+	
+	
+	
+	
+	// new implemenation starts
+	[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:TRUE];
+	[tblview deselectRowAtIndexPath:indexPath animated:YES];
+	
+	NSMutableDictionary* dics;
+	if(indexPath.section == 0)
+		dics = [appDelegate.arr_plan objectAtIndex:indexPath.row];
+	else if(indexPath.section == 1)
+		dics = [appDelegate.arr_fav objectAtIndex:indexPath.row];
+	//	else
+	//		dics = [appDelegate.arr_nodate objectAtIndex:indexPath.row];
+	
+	appDelegate.paramlink = [dics valueForKey:@"permalink"];
+	[appDelegate.paramlink retain];
+	
+	NSString* str = [NSString stringWithFormat:@"%@_",[dics valueForKey:@"permalink"]];
+	str = [str stringByAppendingString:appDelegate.username];
+	
+	if(![appDelegate.tripsData objectForKey:str] || [[appDelegate.tripsData objectForKey:str] count] == 0)
+	{
+		
+		[appDelegate getTripWithNewParser:[dics valueForKey:@"permalink"]];
+		
+	}
+	NSLog(@"str is %@",str);
+	NSMutableArray* array = (NSMutableArray *) [appDelegate.tripsData objectForKey:str];
+	
+	
+	[self setallpins:array];
+	
+	NSString* str2 = [NSString stringWithFormat:@"dics_"];
+	str2 = [str2 stringByAppendingString:str];
+	
+	NSMutableDictionary* dictrip = (NSMutableDictionary *) [appDelegate.tripsData objectForKey:str2];
+	
+	tripcontroller* object = [[tripcontroller alloc] initWithNibName:@"tripcontroller" bundle:nil];
+	object.arraytrip = array;
+	object.dictrip = dictrip;
+	
+	[self.navigationController pushViewController:object animated:YES];
+	self.navigationItem.title = @"Back";
+	[object release];
+	
+	[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:FALSE];
+	
+	// Navigation logic may go here -- for example, create and push another view controller.
+	// AnotherViewController *anotherViewController = [[AnotherViewController alloc] initWithNibName:@"AnotherView" bundle:nil];
+	// [self.navigationController pushViewController:anotherViewController animated:YES];
+	// [anotherViewController release];
+	
+}
+
+
+-(void) setallpins:(NSMutableArray *) arraytrip
+{
+	if(appDelegate.arraypins)
+	{
+		[appDelegate.arraypins release];
+		appDelegate.arraypins = nil;
+	}
+
+	appDelegate.arraypins = [[NSMutableArray alloc] init];
+	//	NSMutableDictionary* dicstrip = (NSMutableDictionary *) [[NSUserDefaults standardUserDefaults] valueForKey:[NSString stringWithFormat:@"dics_%@_%@",appDelegate.paramlink,appDelegate.username]];
+
+	double oldlat=0, oldlng=0;
+	int tag = 0;
+	
+	for(int i=0; i<[arraytrip count]; i++)
+	{
+		NSMutableArray* aa = [arraytrip objectAtIndex:i];
+	
+		for(int j=0; j<[aa count]; j++)
+		{
+			NSMutableDictionary* dd = [aa objectAtIndex:j];
+			NSMutableDictionary* dicc = [[NSMutableDictionary alloc] init];
+			double lat,lng;
+			[dicc setValue:[dd valueForKey:@"lat"] forKey:@"lat"];
+			[dicc setValue:[dd valueForKey:@"lng"] forKey:@"lng"];
+			[dicc setValue:[NSString stringWithFormat:@"%d",j] forKey:@"row"];
+		//	NSString* 
+		//	[dicc setValue:[dicstrip valueForKey:@"destination"] forKey:@"title"];
+			
+			lat = [[dd valueForKey:@"lat"]doubleValue];
+			lng = [[dd valueForKey:@"lng"]doubleValue];
+			
+			if(lat != 0)
+			{
+				if(oldlat != lat && oldlng != lng)
+				{
+					[dicc setValue:[NSString stringWithFormat:@"%d",i] forKey:@"section"];
+					[dicc setValue:[NSString stringWithFormat:@"%d",tag] forKey:@"tag"];
+					[dicc setValue:[dd valueForKey:@"title"] forKey:@"title"];
+					oldlat = lat; oldlng = lng; tag++;
+					[appDelegate.arraypins addObject:dicc];
+					//break;
+				}
+			}
+			[dicc release];
+			dicc = nil;
+		}
+	}
+	NSLog(@"Finished");
+}
+
+
+-(IBAction) btnsync_click
+{
+
+
+	
+	[self performSelectorInBackground:@selector(move1) withObject:nil];
+	
+	
+	if([appDelegate connectedToNetwork])
+	{
+		[appDelegate login:appDelegate.username :appDelegate.password];
+		++refreshCount;
+		[appDelegate getalldata];
+			
+		UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"" message:@"Sync completed successfully!" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+		[alert show];
+		[alert release];
+	}
+	else
+	{
+		UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"" message:@"Internet connection is not available" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+		[alert show];
+		[alert release];
+	}
+	
+	lbllasttime.text = [[NSUserDefaults standardUserDefaults] valueForKey:@"lasttime"];
+	[NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(stopAnimate2) userInfo:nil repeats:NO];	
+//	[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:FALSE];
+//	[actview1 stopAnimating];
+	bk_act1.hidden = TRUE;
+	bk_lbl1.hidden = TRUE;
+}
+
+-(IBAction) rightbtn_click
+{
+	
+	
+	[self performSelectorInBackground:@selector(move) withObject:nil];
+	
+	if([appDelegate connectedToNetwork])
+	{
+		[appDelegate login:appDelegate.username :appDelegate.password];
+		++refreshCount;
+		[appDelegate getalldata];
+		
+		UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"" message:@"Sync completed successfully!" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+		[alert show];
+		[alert release];
+	}
+	else
+	{
+		UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"" message:@"Internet connection is not available" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+		[alert show];
+		[alert release];
+	}
+	[NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(stopAnimate) userInfo:nil repeats:NO];	
+//	[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:FALSE];
+//	[actview stopAnimating];
+	bk_act.hidden = TRUE;
+	bk_lbl.hidden = TRUE;
+	[tblview reloadData];
+}
+
+-(void)stopAnimate
+{
+	[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:FALSE];
+	[actview stopAnimating];
+}
+
+-(void)stopAnimate2
+{
+	[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:FALSE];
+	[actview1 stopAnimating];
+}
+
+
+-(IBAction) logout_click
+{
+	[[NSUserDefaults standardUserDefaults] setValue:@"" forKey:@"username"];
+	appDelegate.isFirstTime = TRUE;
+	
+	[self.navigationController popToRootViewControllerAnimated:YES];
+}
+-(IBAction) urlclick
+{
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://duffelup.com"]];
+}
+
+
+#pragma mark Memory
+- (void)didReceiveMemoryWarning 
+{
+	// Releases the view if it doesn't have a superview.
+    [super didReceiveMemoryWarning];
+	
+	// Release any cached data, images, etc that aren't in use.
+}
+
+- (void)viewDidUnload {
+	// Release any retained subviews of the main view.
+	// e.g. self.myOutlet = nil;
+}
+
+- (void)dealloc {
+    [super dealloc];
+}
+
+@end

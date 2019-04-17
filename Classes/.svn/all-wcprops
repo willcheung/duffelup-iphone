@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/duffelup-iphone/!svn/ver/6/trunk/Classes
+END
+duffelAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/duffelup-iphone/!svn/ver/8/trunk/Classes/duffelAppDelegate.h
+END
+createcontroller.xib
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/duffelup-iphone/!svn/ver/2/trunk/Classes/createcontroller.xib
+END
+notecontroller.xib
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/duffelup-iphone/!svn/ver/2/trunk/Classes/notecontroller.xib
+END
+duffelAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/duffelup-iphone/!svn/ver/8/trunk/Classes/duffelAppDelegate.m
+END
+webviewcontroller.xib
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/duffelup-iphone/!svn/ver/2/trunk/Classes/webviewcontroller.xib
+END
+createcontroller.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/duffelup-iphone/!svn/ver/2/trunk/Classes/createcontroller.h
+END
+notecontroller.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/duffelup-iphone/!svn/ver/2/trunk/Classes/notecontroller.h
+END
+myduffelcontroller.xib
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/duffelup-iphone/!svn/ver/2/trunk/Classes/myduffelcontroller.xib
+END
+webviewcontroller.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/duffelup-iphone/!svn/ver/2/trunk/Classes/webviewcontroller.h
+END
+createcontroller.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/duffelup-iphone/!svn/ver/2/trunk/Classes/createcontroller.m
+END
+mapcontroller.xib
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/duffelup-iphone/!svn/ver/2/trunk/Classes/mapcontroller.xib
+END
+tripcontroller.xib
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/duffelup-iphone/!svn/ver/2/trunk/Classes/tripcontroller.xib
+END
+notecontroller.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/duffelup-iphone/!svn/ver/8/trunk/Classes/notecontroller.m
+END
+myduffelcontroller.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/duffelup-iphone/!svn/ver/2/trunk/Classes/myduffelcontroller.h
+END
+mapcontroller.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/duffelup-iphone/!svn/ver/2/trunk/Classes/mapcontroller.h
+END
+webviewcontroller.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/duffelup-iphone/!svn/ver/2/trunk/Classes/webviewcontroller.m
+END
+RootViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/duffelup-iphone/!svn/ver/6/trunk/Classes/RootViewController.h
+END
+tripcontroller.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/duffelup-iphone/!svn/ver/2/trunk/Classes/tripcontroller.h
+END
+myduffelcontroller.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/duffelup-iphone/!svn/ver/8/trunk/Classes/myduffelcontroller.m
+END
+mapcontroller.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/duffelup-iphone/!svn/ver/2/trunk/Classes/mapcontroller.m
+END
+RootViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/duffelup-iphone/!svn/ver/8/trunk/Classes/RootViewController.m
+END
+tripcontroller.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/duffelup-iphone/!svn/ver/8/trunk/Classes/tripcontroller.m
+END

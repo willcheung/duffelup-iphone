@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>7QV3G2K8J4.com.will.duffel</string>
+	<key>get-task-allow</key>
+	<false/>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>7QV3G2K8J4.com.will.duffel</string>
+	</array>
+</dict>
+</plist>

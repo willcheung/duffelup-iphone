@@ -1,0 +1,79 @@
+//
+//  notecontroller.h
+//  duffel
+//
+//  Created by Jay Vachhani on 4/1/10.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+
+
+#import <UIKit/UIKit.h>
+#import "mapcontroller.h"
+#import "duffelAppDelegate.h"
+#import "webviewcontroller.h"
+
+@interface notecontroller : UIViewController 
+{
+	duffelAppDelegate* appDelegate;
+	IBOutlet UIBarButtonItem* rightbtn;
+	
+	IBOutlet UITextView* txtview;
+	IBOutlet UIImageView* imagenote;
+	IBOutlet UIImageView* imagethumb;
+	
+	IBOutlet UILabel* lbl;
+	IBOutlet UILabel* lbl_date;
+	IBOutlet UILabel* lbl_category;
+	
+	IBOutlet UIButton* btnlink;
+	IBOutlet UIButton* btncall;
+	
+	IBOutlet UIButton* btnleft;
+	IBOutlet UIButton* btnright;
+	IBOutlet UILabel* lbl_address;
+	
+	CGPoint f_point;
+	CGPoint s_point;
+	
+	int section;
+	int row;
+	NSMutableArray* arraytrip;
+	NSMutableArray* aa;
+	NSMutableDictionary* dd;
+	
+	NSString* lblstr;
+	NSString* lbldate;
+	
+	int year1;
+	int month1; 
+	int date1; 
+	
+	NSString* tttt;
+	
+	BOOL isunschedule;
+}
+
+@property(nonatomic,readwrite) BOOL isunschedule;
+
+@property(nonatomic,retain) NSMutableArray* arraytrip;
+@property(nonatomic,retain) NSString* lblstr;
+@property(nonatomic,retain) NSString* lbldate;
+
+@property(nonatomic,readwrite) int section;
+@property(nonatomic,readwrite) int row;
+
+-(IBAction) rightbtn_click;
+-(IBAction) btnlink_click;
+-(IBAction) btncall_click;
+
+-(IBAction) left_click;
+-(IBAction) right_click;
+
+-(void) setarrows;
+-(void) scroll;
+-(void) setText;
+
+-(void) setdate;
+-(void) datechange;
+-(int) daysofmonth:(int) d2;
+
+@end
